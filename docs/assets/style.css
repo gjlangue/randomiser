@@ -1,0 +1,101 @@
+/*----- the whole document ------*/
+            * {                
+                margin: 0;
+                padding: 0;                
+            }
+            
+            #pageContent {
+                max-width: 800px;
+                height: 250px;
+                background-color: lightgreen;
+                margin: 10px;
+                border-radius: 10px;
+            }
+
+/*----- the drawing form ------*/
+            #form {
+                padding: 10px 5px;
+            }
+            
+            #formMainArea {
+                width: 300px;
+                margin: 20px auto;
+            }
+            
+            #prompt {
+                height: 35px;
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 1em;
+                border: none;
+                border-radius: 5px;
+                margin-right: 5px;
+            }
+            
+            #confirm {
+                height: 35px;
+                border: none;
+                font-size: 1em;
+                font-weight: bold;
+                border-radius: 5px;
+                background-color: darkgreen;
+                color: lightgreen;
+                padding: 0 15px;
+            }
+            
+            #drawResult {
+                height: 40px;                
+                width: 350px;
+                line-height: 40px;
+                background-color: darkgreen;
+                border-radius: 5px;
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 1em;
+                font-weight: bold;
+                margin: 20px auto;
+                color: lightgreen;
+            }
+            
+            
+            
+/*----- dice ------*/       
+            
+            #resultNumber {
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                box-sizing: border-box;
+                background: green;
+                border-radius: 10px;
+                font-size: 2.5em;
+                text-align: center;
+                font-family: sans-serif;
+                margin: 15px auto;
+                font-weight: bold; 
+                color: lightgreen;
+            }
+            
+            #resultNumber p {
+                line-height: 1;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            
+            #resultNumber:hover {
+                background: darkgreen;
+                color: lightgreen;
+            }
+            
+            #resultNumber:active {
+                background: green;
+                color: lightgreen;
+            }
+            
+            #history {
+                margin: 150px 10px 0 10px;
+                max-width: 800px;
+                background-color: lightgray;
+                color: gray;
+                border-radius: 5px;
+            }
